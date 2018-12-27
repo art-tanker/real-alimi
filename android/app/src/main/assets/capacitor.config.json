@@ -1,0 +1,6 @@
+{
+    "appId": "com.realalimi",
+    "appName": "realalimi",
+    "bundledWebRuntime": false,
+    "webDir": "www"
+}

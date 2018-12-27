@@ -1,0 +1,9 @@
+myApp
+
+keytool -genkey -v -keystore key-real-alimi.keystore -alias alias-real-alimi -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key-real-alimi.keystore /Users/greatemactouch/myApp/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias-real-alimi
+
+key-real-alimi
+alias-real-alimi
+app-release-unsigned.apk
