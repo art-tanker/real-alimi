@@ -1,3 +1,33 @@
+ionic info
+
+cli packages: (/usr/local/lib/node_modules)
+
+    @ionic/cli-utils  : 1.19.2
+    ionic (Ionic CLI) : 3.20.0
+
+global packages:
+
+    cordova (Cordova CLI) : 8.1.2 (cordova-lib@8.1.1)
+
+local packages:
+
+    Cordova Platforms : android 7.1.4
+
+System:
+
+    Android SDK Tools : 26.1.1
+    Node              : v10.8.0
+    npm               : 6.2.0
+    OS                : macOS High Sierra
+
+Environment Variables:
+
+    ANDROID_HOME : /Users/greatemactouch/Library/Android/sdk
+
+Misc:
+
+    backend : pro
+
 # https://beta.ionicframework.com/docs/installation/android/#android-studio
 export ANDROID_HOM=$HOME/Library/Android/sdk
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
