@@ -1,3 +1,16 @@
+# https://beta.ionicframework.com/docs/installation/android/#android-studio
+export ANDROID_HOM=$HOME/Library/Android/sdk
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+
+# avdmanager, sdkmanager
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+
+# adb, logcat
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+# emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+
 myApp
 
 keytool -genkey -v -keystore key-real-alimi.keystore -alias alias-real-alimi -keyalg RSA -keysize 2048 -validity 10000
