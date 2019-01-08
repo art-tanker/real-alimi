@@ -38,7 +38,7 @@ Misc:
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 # https://beta.ionicframework.com/docs/installation/android/#android-studio
-export ANDROID_HOM=$HOME/Library/Android/sdk
+export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 
 # avdmanager, sdkmanager
